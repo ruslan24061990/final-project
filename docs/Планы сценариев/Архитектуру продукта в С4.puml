@@ -1,0 +1,62 @@
+@startuml
+!include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4.puml
+!include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Container.puml
+!include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Component.puml
+
+title Архитектура 1С
+
+' Системы
+System_Boundary(1C, "1C:Демонстрационное приложение") {
+    Container_Boundary(ПрограммаЛояльности, "Программа лояльности", ""){
+        Component(Контрагенты, "Контрагенты",, "")
+        Component(КартыЛояльности, "Карты лояльности",, "")
+        Component(Регионы, "Регионы",, "")
+        Component(ВидыЦен, "Виды цен",, "")
+    } 
+
+        
+}
+
+
+System_Boundary(MDM, "1C:MDM") {
+    Container_Boundary(НСИ, "НСИ", ""){
+        Component(РегионыMDM, "Регионы",, "")
+        Component(ВидыЦенMDM, "Виды цен",, "")        
+        Component(КонтрагентыMDM, "Контрагенты",, "")
+        Component(КартыЛояльностиMDM, "Карты лояльности",, "")
+
+    } 
+}
+
+' Внешние системы
+System_Ext(ESB,"RabbitMQ")
+
+' Связи 1С с MDM
+
+
+Rel(Регионы, ESB, "Регионы", "RabbitMQ")
+Rel(ESB, РегионыMDM, "Регионы", "RabbitMQ")
+Rel(РегионыMDM, ESB, "Регионы", "RabbitMQ")
+Rel(ESB, Регионы, "Регионы", "RabbitMQ")
+
+Rel(ВидыЦен, ESB, "Виды цен", "RabbitMQ")
+Rel(ESB, ВидыЦенMDM, "Виды цен", "RabbitMQ")
+Rel(ВидыЦенMDM, ESB, "Виды цен", "RabbitMQ")
+Rel(ESB, ВидыЦен, "Виды цен", "RabbitMQ")
+
+
+Rel(Контрагенты, ESB, "Контрагенты", "RabbitMQ")
+Rel(ESB, КонтрагентыMDM, "Контрагенты", "RabbitMQ")
+Rel(КонтрагентыMDM, ESB, "Контрагенты", "RabbitMQ")
+Rel(ESB, Контрагенты, "Контрагенты", "RabbitMQ")
+
+
+Rel(КартыЛояльности, ESB, "Карты лояльности", "RabbitMQ")
+Rel(ESB, КартыЛояльностиMDM, "Карты лояльности", "RabbitMQ")
+Rel(КартыЛояльностиMDM, ESB, "Карты лояльности", "RabbitMQ")
+Rel(ESB, КартыЛояльности, "Карты лояльности", "RabbitMQ")
+
+
+
+
+@enduml

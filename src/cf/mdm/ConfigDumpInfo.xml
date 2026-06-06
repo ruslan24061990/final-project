@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ConfigDumpInfo xmlns="http://v8.1c.ru/8.3/xcf/dumpinfo" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" format="Hierarchical" version="2.20">
+	<ConfigVersions>
+		<Metadata name="Catalog.ВидыЦен" id="0a5a9a60-f3d3-4f25-9a5b-109e154fa28d" configVersion="49c3c75b3f9dcd4f8234c6344eee56f700000000"/>
+		<Metadata name="Catalog.ВидыЦен.AdditionalIndexes" id="0a5a9a60-f3d3-4f25-9a5b-109e154fa28d.1d" configVersion="0dca4754c2b7d049987a359013b728b100000000"/>
+		<Metadata name="Catalog.ВидыЦен.Help" id="0a5a9a60-f3d3-4f25-9a5b-109e154fa28d.1" configVersion="df629f997111a1498b2b6ace9faaad6000000000"/>
+		<Metadata name="Catalog.ВидыЦен.ManagerModule" id="0a5a9a60-f3d3-4f25-9a5b-109e154fa28d.3" configVersion="d8016f66131df241a419f8372a862c1e00000000"/>
+		<Metadata name="Catalog.ВидыЦен.ObjectModule" id="0a5a9a60-f3d3-4f25-9a5b-109e154fa28d.0" configVersion="8b4a608338b1c448b6282fa00ab3ede200000000"/>
+		<Metadata name="Catalog.ВидыЦен.Predefined" id="0a5a9a60-f3d3-4f25-9a5b-109e154fa28d.1c" configVersion="ab5a96684e88c64bbe512a5a8c96266200000000"/>
+		<Metadata name="Catalog.КартыЛояльности" id="736e3b9e-10cc-4471-aea5-c06c0108535c" configVersion="3e7fc399ae6a9f489e25e2a43526df0300000000">
+			<Metadata name="Catalog.КартыЛояльности.Attribute.ВидКарты" id="4a256f6b-85a2-4fe1-8b15-d085202e3f4e"/>
+			<Metadata name="Catalog.КартыЛояльности.Attribute.НомерКарты" id="58cbb5b7-1f0a-4a19-8093-b40abcd9d306"/>
+			<Metadata name="Catalog.КартыЛояльности.Attribute.ДатаАктивации" id="71c17d55-0570-4d6b-8074-1f8376e8ee87"/>
+			<Metadata name="Catalog.КартыЛояльности.Attribute.СтатусКарты" id="90113dda-2dbf-4472-8533-1473e4fd4ae4"/>
+		</Metadata>
+		<Metadata name="Catalog.КартыЛояльности.AdditionalIndexes" id="736e3b9e-10cc-4471-aea5-c06c0108535c.1d" configVersion="673afa31bcc05b429be68d5dbf8e327300000000"/>
+		<Metadata name="Catalog.КартыЛояльности.Form.ФормаЭлемента" id="fb307916-88d4-4b51-ba42-9bbc1962a276" configVersion="a4a625c3eb32c94fa7d565b2bdc53d6a00000000"/>
+		<Metadata name="Catalog.КартыЛояльности.Form.ФормаЭлемента.Form" id="fb307916-88d4-4b51-ba42-9bbc1962a276.0" configVersion="6fc17ce35cc547438061c1e4c834f13100000000"/>
+		<Metadata name="Catalog.КартыЛояльности.Form.ФормаЭлемента.Help" id="fb307916-88d4-4b51-ba42-9bbc1962a276.1" configVersion="4d1c336b0666ae4b86562927275e028000000000"/>
+		<Metadata name="Catalog.КартыЛояльности.Help" id="736e3b9e-10cc-4471-aea5-c06c0108535c.1" configVersion="4fc24adc598d6d40851e23703bda963a00000000"/>
+		<Metadata name="Catalog.КартыЛояльности.ManagerModule" id="736e3b9e-10cc-4471-aea5-c06c0108535c.3" configVersion="efc00e9c4eacc546b3c8bd15a6832e9d00000000"/>
+		<Metadata name="Catalog.КартыЛояльности.ObjectModule" id="736e3b9e-10cc-4471-aea5-c06c0108535c.0" configVersion="73d8342ade764144ad8a7eded874f78000000000"/>
+		<Metadata name="Catalog.КартыЛояльности.Predefined" id="736e3b9e-10cc-4471-aea5-c06c0108535c.1c" configVersion="e4d09cd35f929149ae2b6941bce9751900000000"/>
+		<Metadata name="Catalog.Контрагенты" id="7dd24ed2-1493-48ea-be82-cbd5da941db2" configVersion="823822dd6a6fd34689acace9165c725d00000000">
+			<Metadata name="Catalog.Контрагенты.Attribute.Долгота" id="23ad4592-48c5-4e5b-a19a-02f399ec1931"/>
+			<Metadata name="Catalog.Контрагенты.Attribute.ЭлектроннаяПочта" id="319d1d56-844f-4c38-b9b8-49a451979a71"/>
+			<Metadata name="Catalog.Контрагенты.Attribute.Телефон" id="37f3f58f-a3c6-4b28-be0c-cb72f8022701"/>
+			<Metadata name="Catalog.Контрагенты.Attribute.ВидЦен" id="5dd56bec-ab4a-4410-a966-6de8113ef45a"/>
+			<Metadata name="Catalog.Контрагенты.Attribute.Город" id="84a1809b-5147-454f-b6af-f41219dd5e1d"/>
+			<Metadata name="Catalog.Контрагенты.Attribute.Широта" id="8cb36c6e-e7ff-47b4-b2a2-6981e006c2bc"/>
+			<Metadata name="Catalog.Контрагенты.Attribute.Факс" id="a417e9d4-a2cf-4285-9ac1-1fbcb1f458d0"/>
+			<Metadata name="Catalog.Контрагенты.Attribute.Улица" id="b8b69ccc-df1d-49de-8ca3-4627bc4c9db6"/>
+			<Metadata name="Catalog.Контрагенты.Attribute.ДополнительнаяИнформация" id="bbe35b9d-d946-4b3e-9901-154345505c29"/>
+			<Metadata name="Catalog.Контрагенты.Attribute.ВебСайт" id="bf45d7ee-d486-41cd-9988-d93d58b3fe11"/>
+			<Metadata name="Catalog.Контрагенты.Attribute.Индекс" id="c76815ee-3c25-43de-8772-4fdcad7b3e1c"/>
+			<Metadata name="Catalog.Контрагенты.Attribute.Регион" id="c8c94971-21ba-468d-91ac-0e484a6c782a"/>
+			<Metadata name="Catalog.Контрагенты.Attribute.КонтактноеЛицо" id="d25ac742-dbb8-4a9a-a6c5-3b1d3ed1734a"/>
+			<Metadata name="Catalog.Контрагенты.Attribute.Страна" id="ee2c2522-af03-4d10-aaf6-45dccb9daa15"/>
+			<Metadata name="Catalog.Контрагенты.Attribute.Дом" id="f523fb38-ce36-480c-ac2a-64b091dfa635"/>
+		</Metadata>
+		<Metadata name="Catalog.Контрагенты.AdditionalIndexes" id="7dd24ed2-1493-48ea-be82-cbd5da941db2.1d" configVersion="ccd18cda0b669e4e8715e2f133b3f83b00000000"/>
+		<Metadata name="Catalog.Контрагенты.Help" id="7dd24ed2-1493-48ea-be82-cbd5da941db2.1" configVersion="61ccbb2c812dd441a10572d6ba53c5c100000000"/>
+		<Metadata name="Catalog.Контрагенты.ManagerModule" id="7dd24ed2-1493-48ea-be82-cbd5da941db2.3" configVersion="45902b609906a14299b1c260effe9c0100000000"/>
+		<Metadata name="Catalog.Контрагенты.ObjectModule" id="7dd24ed2-1493-48ea-be82-cbd5da941db2.0" configVersion="a8e819240370ed4c844c007c50e1f3f300000000"/>
+		<Metadata name="Catalog.Контрагенты.Predefined" id="7dd24ed2-1493-48ea-be82-cbd5da941db2.1c" configVersion="059779190085a7458f58c3bb32c55c6200000000"/>
+		<Metadata name="Catalog.Регионы" id="7559b05a-dbb2-43cb-bea7-6076b9d04cae" configVersion="4fc16b7cef2e8d40900a193df17ace0300000000"/>
+		<Metadata name="Catalog.Регионы.AdditionalIndexes" id="7559b05a-dbb2-43cb-bea7-6076b9d04cae.1d" configVersion="73c6d0d04a4c044b9d4a59c5bbf5b0b400000000"/>
+		<Metadata name="Catalog.Регионы.Help" id="7559b05a-dbb2-43cb-bea7-6076b9d04cae.1" configVersion="230c0d3cdf2d2c42b1399dbcf2c24f1200000000"/>
+		<Metadata name="Catalog.Регионы.ManagerModule" id="7559b05a-dbb2-43cb-bea7-6076b9d04cae.3" configVersion="18192c3cb12547439d1f52f7040a354600000000"/>
+		<Metadata name="Catalog.Регионы.ObjectModule" id="7559b05a-dbb2-43cb-bea7-6076b9d04cae.0" configVersion="c07836fea8d66d43b4d98334854611e400000000"/>
+		<Metadata name="Catalog.Регионы.Predefined" id="7559b05a-dbb2-43cb-bea7-6076b9d04cae.1c" configVersion="84a82f326c4a864a9768429c9af8b7cd00000000"/>
+		<Metadata name="CommonModule.РаботаСRabbitMQ" id="ecdda2b5-9fec-4a71-af03-a19472b9ae00" configVersion="1fa4ba753531a74cb8612310a0fd4d5e00000000"/>
+		<Metadata name="CommonModule.РаботаСRabbitMQ.Module" id="ecdda2b5-9fec-4a71-af03-a19472b9ae00.0" configVersion="e3007d17243ea048b45e09558a1ba4b900000000"/>
+		<Metadata name="CommonTemplate.RabbitMQ" id="47542a14-0fcc-4f99-a1f4-249b2c2cf753" configVersion="2148f7cb9c863f4c84cbc255d9b7590400000000"/>
+		<Metadata name="CommonTemplate.RabbitMQ.Template" id="47542a14-0fcc-4f99-a1f4-249b2c2cf753.0" configVersion="071144e2802a5148a28e3d59d3f26b6300000000"/>
+		<Metadata name="Configuration.Конфигурация" id="cf8f4552-5b84-40f8-a8ed-a21a8c67b7b3" configVersion="b0909495f9dcc3499b8fc27b7eaa943c00000000"/>
+		<Metadata name="DataProcessor.Обработка1" id="e66e8724-a766-4ac2-a267-feede322b6ff" configVersion="b4c2c148dfe0b04fa78414b4736cc43e00000000"/>
+		<Metadata name="DataProcessor.Обработка1.Form.Форма" id="8dd749f9-000b-4604-b47a-629123459735" configVersion="88c731c2030c834bb328dfaf116a767300000000"/>
+		<Metadata name="DataProcessor.Обработка1.Form.Форма.Form" id="8dd749f9-000b-4604-b47a-629123459735.0" configVersion="485e675b586c1247832ad18a6803977800000000"/>
+		<Metadata name="Enum.ВидыКартыЛояльности" id="0e58976f-9cc8-40a8-b6ce-8f2e5235a565" configVersion="c092ef9e9a05764c9ef48a48a003aaa100000000">
+			<Metadata name="Enum.ВидыКартыЛояльности.EnumValue.Скидочная" id="622e09fa-7860-46c9-893b-59ee41303e95"/>
+			<Metadata name="Enum.ВидыКартыЛояльности.EnumValue.Накопительная" id="e040f39d-2cdf-4c77-9550-603f042452c4"/>
+		</Metadata>
+		<Metadata name="Enum.ВидыКартыЛояльности.ManagerModule" id="0e58976f-9cc8-40a8-b6ce-8f2e5235a565.0" configVersion="c4b9e4aae65aeb438fd7db1b60853c3300000000"/>
+		<Metadata name="Enum.ВидыОбмена" id="3cf97f97-8fb4-498e-b3a4-960a9de12ce8" configVersion="04ccdf7b94de964ca0eae7a5ae0d5df500000000">
+			<Metadata name="Enum.ВидыОбмена.EnumValue.ОтправкаСообщений" id="c61df69d-0ab1-4388-b0d3-50a93100efef"/>
+			<Metadata name="Enum.ВидыОбмена.EnumValue.ЧтениеСообщений" id="c730df21-6693-4bfb-a7cc-50cb590a6bde"/>
+		</Metadata>
+		<Metadata name="Enum.ВидыОбмена.ManagerModule" id="3cf97f97-8fb4-498e-b3a4-960a9de12ce8.0" configVersion="ac6ce93a5f3f1f4fb80b8cfa35a4e8d500000000"/>
+		<Metadata name="Enum.СтатусыКартыЛояльности" id="700de88b-3296-4906-8f05-19342bf69ec1" configVersion="e7afe6137553774ab68a8cd2c575d0ee00000000">
+			<Metadata name="Enum.СтатусыКартыЛояльности.EnumValue.Заблокирована" id="493f1b49-b8b1-4529-995f-c244df5964fc"/>
+			<Metadata name="Enum.СтатусыКартыЛояльности.EnumValue.Активна" id="747a281c-1f67-475c-bd84-390edfffd581"/>
+		</Metadata>
+		<Metadata name="Enum.СтатусыКартыЛояльности.ManagerModule" id="700de88b-3296-4906-8f05-19342bf69ec1.0" configVersion="6546c7303d24354fa5edcef4b90d15a600000000"/>
+		<Metadata name="Enum.ТипыОпераций" id="7dbc4fe0-6150-4617-bee5-d9f6fb592475" configVersion="c002c0eb3d89594a8d9416d795c1237b00000000">
+			<Metadata name="Enum.ТипыОпераций.EnumValue.Списание" id="8b8eb0b0-3486-40a9-a0e5-4e974f196384"/>
+			<Metadata name="Enum.ТипыОпераций.EnumValue.Начисление" id="e9396c5d-3204-4911-9ae4-03d5c0d74a12"/>
+		</Metadata>
+		<Metadata name="Enum.ТипыОпераций.ManagerModule" id="7dbc4fe0-6150-4617-bee5-d9f6fb592475.0" configVersion="46df4643a1d3844190dcfda9fb09cf6900000000"/>
+		<Metadata name="InformationRegister.ИсторияОбмена" id="ff04f628-3133-4e8a-b7df-55582940ae69" configVersion="c2033c23dc42664c8e950419e56b335c00000000">
+			<Metadata name="InformationRegister.ИсторияОбмена.Resource.Сообщение" id="44a1e146-7fd0-4be8-b161-a8b378be0ac8"/>
+			<Metadata name="InformationRegister.ИсторияОбмена.Dimension.Объект" id="ba71a63c-f7d7-41a1-bec1-5b6adc0e75e6"/>
+		</Metadata>
+		<Metadata name="InformationRegister.ИсторияОбмена.AdditionalIndexes" id="ff04f628-3133-4e8a-b7df-55582940ae69.3" configVersion="fd1e1518770fd7428c7a4e35e145954f00000000"/>
+		<Metadata name="InformationRegister.ИсторияОбмена.Help" id="ff04f628-3133-4e8a-b7df-55582940ae69.0" configVersion="49e82242524bd248950a12c2118862dc00000000"/>
+		<Metadata name="InformationRegister.ИсторияОбмена.ManagerModule" id="ff04f628-3133-4e8a-b7df-55582940ae69.2" configVersion="1d21e07470b4f3409f5c98163badc2ed00000000"/>
+		<Metadata name="InformationRegister.ИсторияОбмена.RecordSetModule" id="ff04f628-3133-4e8a-b7df-55582940ae69.1" configVersion="ac2ca50ffcbdf24eb1199fb3544dd8af00000000"/>
+		<Metadata name="InformationRegister.НастройкиОбмена" id="91da09b3-c58c-4f0c-9d92-92af176a6ba7" configVersion="a37cd60881e4704abbbd163c56e2e5e700000000">
+			<Metadata name="InformationRegister.НастройкиОбмена.Resource.ТочкаОбмена" id="424a1cb2-5010-46fc-aa61-fc582677ada7"/>
+			<Metadata name="InformationRegister.НастройкиОбмена.Resource.Логин" id="680c0ae3-8737-48b0-96dc-18eacd1b27f9"/>
+			<Metadata name="InformationRegister.НастройкиОбмена.Resource.Адрес" id="76bfeebb-643c-4125-81c9-1239b27ffa29"/>
+			<Metadata name="InformationRegister.НастройкиОбмена.Resource.Пароль" id="8b515836-6f1c-47b6-b71c-c9b220098dc2"/>
+			<Metadata name="InformationRegister.НастройкиОбмена.Resource.ВиртуальныйХост" id="a65b0856-f7c8-47c0-bcfc-d83aef5c9a1f"/>
+			<Metadata name="InformationRegister.НастройкиОбмена.Resource.КлючМаршрутизации" id="ad958c98-8cd2-4076-98a9-167eb877487a"/>
+			<Metadata name="InformationRegister.НастройкиОбмена.Resource.ИмяОчереди" id="c6a0fd29-991f-4347-b092-6d6a1870f361"/>
+			<Metadata name="InformationRegister.НастройкиОбмена.Dimension.ВидОбмена" id="ef4757f3-3b29-497d-8976-58f3260aa267"/>
+			<Metadata name="InformationRegister.НастройкиОбмена.Resource.Порт" id="f2af0471-9a3b-4e1d-a51a-f2b74446ec8e"/>
+		</Metadata>
+		<Metadata name="InformationRegister.НастройкиОбмена.AdditionalIndexes" id="91da09b3-c58c-4f0c-9d92-92af176a6ba7.3" configVersion="fb5384d22fdf4045a5f686a3bbf9417600000000"/>
+		<Metadata name="InformationRegister.НастройкиОбмена.Help" id="91da09b3-c58c-4f0c-9d92-92af176a6ba7.0" configVersion="d40eed4d7e968c49abc11d0a20d9454900000000"/>
+		<Metadata name="InformationRegister.НастройкиОбмена.ManagerModule" id="91da09b3-c58c-4f0c-9d92-92af176a6ba7.2" configVersion="ded13f2768d5a7448b9f4b4b4465510200000000"/>
+		<Metadata name="InformationRegister.НастройкиОбмена.RecordSetModule" id="91da09b3-c58c-4f0c-9d92-92af176a6ba7.1" configVersion="3f8482a63ca52f41bc8970fef0f7620400000000"/>
+		<Metadata name="Language.Русский" id="ec4c7914-a663-4ec6-880b-6e3b2da36bf4" configVersion="2be631219bfd4f41b94474521a9e088300000000"/>
+		<Metadata name="ScheduledJob.ОтправкаСообщенийВRabbitMQ" id="232b555d-52e4-434a-ad44-d30e1d8b2474" configVersion="a77de48f348d9546bad3e4d65343e98d00000000"/>
+		<Metadata name="ScheduledJob.ОтправкаСообщенийВRabbitMQ.Schedule" id="232b555d-52e4-434a-ad44-d30e1d8b2474.0" configVersion="daa767a89536d8418715e50ed98273e200000000"/>
+		<Metadata name="ScheduledJob.ПолучениеСообщенийВRabbitMQ" id="59d76109-226e-4407-89ce-7e08cd6e525d" configVersion="cf8cfbf3e66abd49be30402fd3ad26f500000000"/>
+		<Metadata name="ScheduledJob.ПолучениеСообщенийВRabbitMQ.Schedule" id="59d76109-226e-4407-89ce-7e08cd6e525d.0" configVersion="d1c059dbcbb3a041a2682eac34b03e4000000000"/>
+	</ConfigVersions>
+</ConfigDumpInfo>
