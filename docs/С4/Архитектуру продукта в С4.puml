@@ -1,0 +1,39 @@
+@startuml
+!include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4.puml
+!include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Container.puml
+!include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Component.puml
+
+title Архитектура 1С
+
+' Системы
+System_Boundary(1C, "1C:Демонстрационное приложение") {
+    Container_Boundary(ПрограммаЛояльности, "Программа лояльности", ""){
+        Component(РегламентноеЗаданиеНаОтправкуСообщений, "Регламентное задание на отправку сообщений",, "")
+        Component(РегламентноеЗаданиеНаЧтениеСообщений, "Регламентное задание на чение сообщений",, "")
+
+    } 
+
+        
+}
+
+
+System_Boundary(MDM, "1C:MDM") {
+    Container_Boundary(НСИ, "НСИ", ""){
+        Component(РегламентноеЗаданиеНаОтправкуСообщенийMDM, "Регламентное задание на отправку сообщений",, "")
+        Component(РегламентноеЗаданиеНаЧтениеСообщенийMDM, "Регламентное задание на чение сообщений",, "")
+
+    } 
+}
+
+' Внешние системы
+System_Ext(RabbitMQ,"RabbitMQ")
+
+' Связи 1С с MDM
+
+
+Rel(РегламентноеЗаданиеНаОтправкуСообщений, RabbitMQ, "Отправка сообщений", "RabbitMQ")
+Rel(РегламентноеЗаданиеНаЧтениеСообщений, RabbitMQ, "Чтение сообщений", "RabbitMQ")
+Rel(РегламентноеЗаданиеНаОтправкуСообщенийMDM, RabbitMQ, "Отправка сообщений", "RabbitMQ")
+Rel(РегламентноеЗаданиеНаЧтениеСообщенийMDM, RabbitMQ, "Чтение сообщений", "RabbitMQ")
+
+@enduml
